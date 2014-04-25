@@ -3,8 +3,13 @@
 \usepackage{times}
 \usepackage{hyperref}
 
+% It might make things easier to define \level like so:
+% \def\level#2{\item[(#1)\hspace{9.5pt}]\begin{itemize}{#2}\end{itemize}}
+% or something to that effect.
 \def\level#1{\item[(#1)\hspace{9.5pt}]}
 \newenvironment{knowlevels}{\begin{description}}{\end{description}} % Just an alias.
+\def\decadeblk#1{\subsection{#1}}
+\def\yearblk#1{\subsubsection{#1}}
 
 \begin{document}
 \title{History of Modern Altera \\ \large{Timeline of Events}}
@@ -29,8 +34,8 @@ Events are listed per-year in grouped bulleted form.  Bullet groups correspond t
 \end{knowlevels}
 Years which lacked major world events are ommitted from the listing.  Years are grouped by decade.
 
-\subsection{430s B.C}
-\subsubsection{439 B.C.}
+\decadeblk{430s B.C}
+\yearblk{439 B.C.}
 \begin{knowlevels}
 \level{2} {
   \begin{itemize}
@@ -39,8 +44,8 @@ Years which lacked major world events are ommitted from the listing.  Years are 
 }
 \end{knowlevels}
 
-\subsection{0s A.C.}
-\subsubsection{1 A.C.}
+\decadeblk{0s A.C.}
+\yearblk{1 A.C.}
 \begin{knowlevels}
 \level{2} {
 \begin{itemize}
@@ -55,7 +60,7 @@ Years which lacked major world events are ommitted from the listing.  Years are 
 }
 \end{knowlevels}
 
-\subsubsection{2 A.C.}
+\yearblk{2 A.C.}
 \begin{knowlevels}
 \level{2} {
 \begin{itemize}
@@ -64,19 +69,107 @@ Years which lacked major world events are ommitted from the listing.  Years are 
 }
 \end{knowlevels}
 
-\subsection{10s A.C.}
-\subsection{20s A.C.}
-\subsection{30s A.C.}
+\decadeblk{10s A.C.}
+\decadeblk{20s A.C.}
+\decadeblk{30s A.C.}
 
-\subsection{1200s A.C./0s D.R.}
-\subsubsection{1207 A.C/0 D.R}
+\decadeblk{1200s A.C./0s D.R.}
+\yearblk{1207 A.C/0 D.R}
 \begin{knowlevels}
-  \level{1} {
-    \begin{itemize}
-      \item The Mage Society tricks the current Emperor into signing over control of the empire to the advisory council in return for reclaiming the lost Carantine lands.
-      \item The Two Weeks War begins and lasts 13 days, during which time the Mage Society conquers most of the known world. 
-    \end{itemize}
+\level{1} {
+\begin{itemize}
+\item The Mage Society tricks the current Emperor into signing over control of the empire to the advisory council in return for reclaiming the lost Carantine lands.
+\item The Two Weeks War begins and lasts 13 days, during which time the Mage Society conquers most of the known world. 
+\end{itemize}
 }
 \end{knowlevels}
+
+\decadeblk{140s D.R.}
+\yearblk{141 D.R}
+\begin{knowlevels}
+\level{3} {
+\begin{itemize}
+\item The Diviners and Illusionists seceed from the Mage Dominion due to discontent with their increasing marginalization by the Evokers and Shapers.
+\item The Evokers condemn this action, and declare that any who stand against them shall be destroyed.
+\end{itemize}
+}
+\level{2} {
+\begin{itemize}
+\item The Mage Wars begin.
+\end{itemize}
+}
+\end{knowlevels}
+
+\yearblk{142 D.R}
+\begin{knowlevels}
+\level{3} {
+\begin{itemize}
+\item The Enchanters side with the Illusionists and Diviners. 
+\end{itemize}
+}
+\end{knowlevels}
+
+\yearblk{143 D.R}
+\begin{knowlevels}
+\level{3} {
+\begin{itemize}
+\item The Conjurers officially denounce the actions of Illusion and Divination schools.
+\end{itemize}
+}
+\end{knowlevels}
+
+\yearblk{144 D.R}
+\begin{knowlevels}
+\level{3} {
+\begin{itemize}
+\item The theory behind a spell that creates a feedback-loop is perfected by the Evokers. Work begins on creating the sphere of destruction.
+\end{itemize}
+}
+\end{knowlevels}
+
+\yearblk{147 D.R}
+\begin{knowlevels}
+\level{3} {
+\begin{itemize}
+\item The Evokers finish the Sphere of Destruction spell.
+\end{itemize}
+}
+\level{1} {
+\begin{itemize}
+\item The Evokers use the Sphere of Destruction against a major city held by their opposition. An area with a radius of 100 miles is drained of all magic. Everything in the area of the spell is killed.
+\end{itemize}
+}
+\level{3} {
+\begin{itemize}
+\item The Conjurers and Shapers debate the Evokers about the morality of such a spell.
+\end{itemize}
+}
+\end{knowlevels}
+
+\yearblk{148 D.R}
+\begin{knowlevels}
+\level{2} {
+\begin{itemize}
+\item The Evokers begin using the Sphere of Destruction with regularity. To speed up the rate at which they can use it, destroying cities and garrisons.
+\end{itemize}
+}
+\end{knowlevels}
+
+\yearblk{149 D.R}
+\begin{knowlevels}
+\level{3} {
+\begin{itemize}
+\item The Shapers and Conjurers denounce the Evokers actions.
+\end{itemize}
+}
+\level{2} {
+\begin{itemize}
+\item The Shapers move the bulk of their troops to the southern continent acros the isthmus.
+\end{itemize}
+}
+\end{knowlevels}
+
+\decadeblk{150s D.R}
+\yearblk{150 D.R}
 
 \end{document}
